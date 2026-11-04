@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Survey Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+    <h2>IoT Security Awareness</h2>
+
+    <div>
+        <a href="index.html">Home</a>
+        <a href="awareness.html">Awareness</a>
+        <a href="survey.html">Survey</a>
+        <a href="results.html">Results</a>
+        <a href="checker.html">Security Checker</a>
+    </div>
+</nav>
+
+    <section class="hero awareness-hero">
+        <div class="hero-content">
+            <p class="tag">SURVEY • DATA • ANALYSIS</p>
+            <h1>Survey Results & Analysis</h1>
+            <p>
+                Explore the responses collected through our
+                IoT Device Usage and Security Awareness Survey.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Survey Overview</h2>
+        <p>
+            The following information summarises the responses
+            submitted through our household IoT survey.
+        </p>
+
+        <div class="result-summary">
+            <div class="result-card">
+                <h3 id="totalResponses">0</h3>
+                <p>Total Responses</p>
+            </div>
+
+            <div class="result-card">
+                <h3 id="deviceUsers">0</h3>
+                <p>IoT Device Users</p>
+            </div>
+
+            <div class="result-card">
+                <h3 id="awareUsers">0</h3>
+                <p>Security Aware Users</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section devices">
+        <h2>Survey Data Analysis</h2>
+
+        <div class="chart-box">
+            <h3>1. Most Used IoT Devices</h3>
+            <div id="deviceChart"></div>
+        </div>
+
+        <div class="chart-box">
+            <h3>2. Regular Device Updates</h3>
+            <div id="updateChart"></div>
+        </div>
+
+        <div class="chart-box">
+            <h3>3. Awareness of IoT Security Risks</h3>
+            <div id="awarenessChart"></div>
+        </div>
+
+        <div class="chart-box">
+            <h3>4. Strong Password Practices</h3>
+            <div id="passwordChart"></div>
+        </div>
+
+        <div id="noData" class="no-data">
+            <h3>No Survey Responses Yet</h3>
+            <p>
+                Please complete the Field Survey first.
+                Submitted responses will appear here.
+            </p>
+            <a href="survey.html" class="main-btn">
+                Go to Survey
+            </a>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Conclusion</h2>
+        <p id="resultConclusion">
+            Complete the survey to view the analysis.
+        </p>
+    </section>
+
+    <section class="next-section">
+        <h2>Check Your Own IoT Security</h2>
+        <p>
+            Test your smart home security practices
+            with our interactive security checker.
+        </p>
+
+        <a href="checker.html" class="next-btn">
+            Next Page: Security Checker →
+        </a>
+    </section>
+
+    <footer>
+        <h3>IoT Security Awareness</h3>
+        <p>Stay Safe. Stay Connected.</p>
+        <p>© 2026 | Student Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

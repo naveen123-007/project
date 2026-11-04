@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Security Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+   <nav class="navbar">
+    <h2>IoT Security Awareness</h2>
+
+    <div>
+        <a href="index.html">Home</a>
+        <a href="awareness.html">Awareness</a>
+        <a href="survey.html">Survey</a>
+        <a href="results.html">Results</a>
+        <a href="checker.html">Security Checker</a>
+    </div>
+</nav>
+    <!-- Hero Section -->
+    <section class="awareness-hero">
+        <h1>IoT Security Checker</h1>
+        <p>Check how securely you use your smart devices at home.</p>
+    </section>
+
+    <!-- Checker Section -->
+    <section class="checker-box">
+
+        <h2>Check Your Device Security</h2>
+
+        <p>
+            Answer the following five questions to understand
+            your basic IoT security practices.
+        </p>
+
+        <form id="securityChecker">
+
+            <!-- Question 1 -->
+            <div class="checker-question">
+                <h3>1. Do you use strong passwords for your IoT devices?</h3>
+
+                <label>
+                    <input type="radio" name="c1" value="Yes">
+                    Yes
+                </label>
+
+                <label>
+                    <input type="radio" name="c1" value="No">
+                    No
+                </label>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="checker-question">
+                <h3>2. Do you regularly update your IoT devices?</h3>
+
+                <label>
+                    <input type="radio" name="c2" value="Yes">
+                    Yes
+                </label>
+
+                <label>
+                    <input type="radio" name="c2" value="No">
+                    No
+                </label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="checker-question">
+                <h3>3. Is your home Wi-Fi protected with a strong password?</h3>
+
+                <label>
+                    <input type="radio" name="c3" value="Yes">
+                    Yes
+                </label>
+
+                <label>
+                    <input type="radio" name="c3" value="No">
+                    No
+                </label>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="checker-question">
+                <h3>4. Have you changed the default password of your smart devices?</h3>
+
+                <label>
+                    <input type="radio" name="c4" value="Yes">
+                    Yes
+                </label>
+
+                <label>
+                    <input type="radio" name="c4" value="No">
+                    No
+                </label>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="checker-question">
+                <h3>5. Do you check the privacy settings of your IoT devices?</h3>
+
+                <label>
+                    <input type="radio" name="c5" value="Yes">
+                    Yes
+                </label>
+
+                <label>
+                    <input type="radio" name="c5" value="No">
+                    No
+                </label>
+            </div>
+
+            <button type="submit" class="survey-submit">
+                Check My Security
+            </button>
+
+            <button type="reset" class="reset-btn">
+                Reset
+            </button>
+
+        </form>
+
+        <!-- Result -->
+        <div id="checkerResult"></div>
+
+    </section>
+
+    <!-- Back to Home -->
+    <div class="next-page">
+        <a href="index.html" class="next-btn">Back to Home</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 IoT Security Awareness Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

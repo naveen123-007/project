@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Security Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+  <nav class="navbar">
+    <h2>IoT Security Awareness</h2>
+
+    <div>
+        <a href="index.html">Home</a>
+        <a href="awareness.html">Awareness</a>
+        <a href="survey.html">Survey</a>
+        <a href="results.html">Results</a>
+        <a href="checker.html">Security Checker</a>
+    </div>
+</nav>
+
+
+    <!-- HERO -->
+    <section class="hero awareness-hero">
+        <div class="hero-content">
+
+            <p class="tag">YOUR OPINION MATTERS</p>
+
+            <h1>IoT Device Usage & Security Survey</h1>
+
+            <p>
+                Help us understand how people use smart devices
+                in their homes and how aware they are of IoT
+                security and privacy risks.
+            </p>
+
+            <a href="#survey-form" class="main-btn">
+                Start Survey →
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- SURVEY INTRODUCTION -->
+    <section class="section">
+
+        <h2>About This Survey</h2>
+
+        <p>
+            This survey is part of our academic project titled
+            "Survey of IoT Device Use and Security Concerns in
+            Urban Homes".
+        </p>
+
+        <p>
+            Your responses will help us understand common IoT
+            devices, security practices and awareness among
+            household users. Please select the answers that
+            best describe your experience.
+        </p>
+
+    </section>
+
+
+    <!-- SURVEY FORM -->
+    <section class="section devices" id="survey-form">
+
+        <h2>Household IoT Security Questionnaire</h2>
+
+        <p>Please answer all the questions below.</p>
+
+        <form class="survey-box" id="iotSurvey">
+
+            <!-- QUESTION 1 -->
+            <div class="survey-question">
+                <h3>1. Do you use any IoT devices at home?</h3>
+
+                <label>
+                    <input type="radio" name="s1" value="Yes" required>
+                    Yes
+                </label>
+
+                <label>
+                    <input type="radio" name="s1" value="No">
+                    No
+                </label>
+            </div>
+
+
+            <!-- QUESTION 2 -->
+            <div class="survey-question">
+                <h3>2. Which IoT device do you use most?</h3>
+
+                <label>
+                    <input type="radio" name="s2" value="Smart TV" required>
+                    Smart TV
+                </label>
+
+                <label>
+                    <input type="radio" name="s2" value="CCTV Camera">
+                    CCTV Camera
+                </label>
+
+                <label>
+                    <input type="radio" name="s2" value="Smart Watch">
+                    Smart Watch
+                </label>
+
+                <label>
+                    <input type="radio" name="s2" value="Smart Speaker">
+                    Smart Speaker
+                </label>
+
+                <label>
+                    <input type="radio" name="s2" value="Other">
+                    Other
+                </label>
+            </div>
+
+
+            <!-- QUESTION 3 -->
+            <div class="survey-question">
+                <h3>3. Do you regularly update your smart devices?</h3>
+
+                <label>
+                    <input type="radio" name="s3" value="Yes" required>
+                    Yes
+                </label>
+
+                <label>
+                    <input type="radio" name="s3" value="No">
+                    No
+                </label>
+
+                <label>
+                    <input type="radio" name="s3" value="Sometimes">
+                    Sometimes
+                </label>
+            </div>
+
+
+            <!-- QUESTION 4 -->
+            <div class="survey-question">
+                <h3>4. Are you aware of IoT security risks?</h3>
+
+                <label>
+                    <input type="radio" name="s4" value="Yes" required>
+                    Yes
+                </label>
+
+                <label>
+                    <input type="radio" name="s4" value="No">
+                    No
+                </label>
+
+                <label>
+                    <input type="radio" name="s4" value="Not Sure">
+                    Not Sure
+                </label>
+            </div>
+
+
+            <!-- QUESTION 5 -->
+            <div class="survey-question">
+                <h3>5. Do you use strong passwords for your smart devices?</h3>
+
+                <label>
+                    <input type="radio" name="s5" value="Yes" required>
+                    Yes
+                </label>
+
+                <label>
+                    <input type="radio" name="s5" value="No">
+                    No
+                </label>
+
+                <label>
+                    <input type="radio" name="s5" value="Sometimes">
+                    Sometimes
+                </label>
+            </div>
+
+
+            <!-- QUESTION 6 -->
+            <div class="survey-question">
+                <h3>6. Are you concerned about the privacy of your smart devices?</h3>
+
+                <label>
+                    <input type="radio" name="s6" value="Yes" required>
+                    Yes
+                </label>
+
+                <label>
+                    <input type="radio" name="s6" value="No">
+                    No
+                </label>
+
+                <label>
+                    <input type="radio" name="s6" value="Maybe">
+                    Maybe
+                </label>
+            </div>
+
+
+            <!-- SUBMIT -->
+            <div class="survey-submit">
+                <button type="submit" class="main-btn">
+                    Submit Survey
+                </button>
+
+                <button type="reset" class="reset-btn">
+                    Clear Answers
+                </button>
+            </div>
+
+        </form>
+
+        <div id="surveyMessage"></div>
+
+    </section>
+
+
+    <!-- NEXT PAGE -->
+    <section class="next-section">
+
+        <h2>Thank You for Your Participation!</h2>
+
+        <p>
+            Your feedback helps us understand IoT security
+            awareness in urban households.
+        </p>
+
+        <a href="results.html" class="next-btn">
+            Next Page: Survey Results →
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <h3>IoT Security Awareness</h3>
+        <p>Stay Safe. Stay Connected.</p>
+        <p>© 2026 | Student Project</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
